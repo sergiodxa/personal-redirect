@@ -1,0 +1,22 @@
+{
+  "name": "personal-redirect",
+  "alias": [
+    "xalambri.now.sh",
+    "portfolio.now.sh",
+    "sergiodxa.now.sh",
+    "sergio.now.sh",
+    "sergiodxa.xyz",
+    "www.sergiodxa.com"
+  ],
+  "type": "docker",
+  "env": {
+    "REDIRECT_URL": "https://sergiodxa.com"
+  },
+  "features": {
+    "cloud": "v2"
+  },
+  "scale": {
+    "sfo1": { "min": 0, "max": "auto" },
+    "bru1": { "min": 0, "max": "auto" }
+  }
+}
